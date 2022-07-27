@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
@@ -7,15 +6,12 @@ import Login from './Components/Login/Login';
 import Service from './Components/Service/Service';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}> </Route>
         <Route path='/service' element={<Service></Service>}></Route>
         <Route path='/login' element={<Login></Login>}> </Route>
-        
-
-        
       </Routes>
     </div>
   );
