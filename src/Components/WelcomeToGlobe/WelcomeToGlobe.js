@@ -1,7 +1,11 @@
 import React from 'react';
 import vector from '../../assets/img/Vector.png'
 import './WelcomeToGlobe.css'
-
+import ellipse1 from '../../assets/img/Ellipse1.png'
+import ellipse2 from '../../assets/img/Ellipse2.png'
+import ellipse3 from '../../assets/img/Ellipse3.png'
+import ellipse4 from '../../assets/img/Ellipse4.png'
+import ellipse5 from '../../assets/img/Ellipse6.png'
 const WelcomeToGlobe = () => {
     return (
         <div className='teachbody'>
@@ -9,7 +13,11 @@ const WelcomeToGlobe = () => {
             
   <div class="hero-content flex-col lg:flex-row-reverse">
 
-  
+
+        <div className='vectorBox'>
+            <img className='ellipse1' src={ellipse1} alt="" />
+          
+        </div>
     <div>
       <h1 class="text-5xl font-bold">Welcome to</h1>
       <h1 class="text-5xl font-bold">Globetech</h1>
