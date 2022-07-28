@@ -10,8 +10,8 @@ const FeturesSection = () => {
     },[])
     return (
         <div className='fetureCard'>
-            <h2 className='text-center font-bold'>FETURES</h2>
-            <h1 className='text-center text-4xl font-bold'>Our Fetures & Services</h1>
+            <h2 className='text-center font-bold heading'>FETURES</h2>
+            <h1 className='text-center text-4xl font-bold heading'>Our Fetures & Services</h1>
             <div className='fetures-container mt-10'>
             {
                 fetures.map(feture => <FetureSection

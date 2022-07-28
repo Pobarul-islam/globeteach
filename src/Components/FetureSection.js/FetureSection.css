@@ -1,7 +1,19 @@
-.button{
-    
-width: 219px;
+.feturebutton{ 
+width: 200px;
 height: 60px;
-left: 848px;
-top: 2029px;
+background-color: #2F937B;
+border-radius: 25px;
+}
+
+.backColor{
+    background-color: #C9E8E0;
+    padding: 6%;
+}
+
+.fetureimg{
+    width: 250px;
+}
+
+.feturename{
+    color: #2F937B;
 }
