@@ -1,5 +1,17 @@
 .service-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 50px;
+    
+}
+.button{
+    width: 200px;
+    height: 60px;
+    left: 848px;
+    top: 2029px;
+    background: #2397CD;
+    border-radius: 25px;
+
+
+    
 }
