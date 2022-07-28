@@ -1,7 +1,8 @@
 .service-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   row-gap: 5%;
+    row-gap: 5%;
+    margin-top: 5%;
     
 }
 .button{
@@ -14,8 +15,17 @@
     
 }
 
+.serviceheading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+}
+
 @media only screen and (max-width: 576px) {
     .service-container{
         grid-template-columns: repeat(1, 1fr);
+      
     }
 }

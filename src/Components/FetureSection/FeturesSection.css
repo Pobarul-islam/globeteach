@@ -2,16 +2,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-
    
   
  
 }
 .fetureCard{
     margin-top: 10%;
-    margin-bottom: 3%;
+   padding-top: 3%;
     background-color: #C9E8E0;
-    padding-top: 2%;
+  
 }
 
 @media only screen and (max-width: 576px) {

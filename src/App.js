@@ -6,11 +6,11 @@ import Login from './Components/Login/Login';
 import Service from './Components/Service/Service';
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}> </Route>
-        <Route path='/service' element={<Service></Service>}></Route>
+        <Route path='/services' element={<Service></Service>}></Route>
         <Route path='/login' element={<Login></Login>}> </Route>
       </Routes>
     </div>

@@ -1,9 +1,4 @@
-.globebody{
-    background-color: #000637;
-}
-.teachbody{
-    background-color: #000637;
-}
+
 .ellipse1{
     height: 403.1461181640625px;
     width: 403.1461181640625px;
@@ -20,4 +15,22 @@ height: 540.34px;
 left: 1159.4px;
 top: 383.38px;
 
+}
+.heading{
+    color: #28ACE2;
+}
+.heading2{
+    color: #CBF231;
+}
+
+.infotext{
+    color: #28ACE2;
+}
+
+.heading{
+    
+}
+
+.bestText{
+    color: #CBF231;
 }
