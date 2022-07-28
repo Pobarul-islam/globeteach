@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './FetureSection.css'
 const FetureSection = ({ feture }) => {
     const { img, name, description } = feture;
     return (
@@ -12,7 +12,7 @@ const FetureSection = ({ feture }) => {
                     <h2 class="card-title">{ name}</h2>
                     <p>{ description}</p>
     <div class="card-actions">
-      <button class="btn btn-primary">More</button>
+      <button class="btn button">More</button>
     </div>
   </div>
 </div>
