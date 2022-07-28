@@ -11,7 +11,11 @@
     top: 2029px;
     background: #2397CD;
     border-radius: 25px;
-
-
     
+}
+
+@media only screen and (max-width: 576px) {
+    .service-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
