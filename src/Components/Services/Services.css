@@ -1,7 +1,7 @@
 .service-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+   row-gap: 5%;
     
 }
 .button{

@@ -9,9 +9,10 @@ const FeturesSection = () => {
         .then(data=>setFetures(data))
     },[])
     return (
-        <div className='mt-10 mb-5 ml-10'>
-            <h2>FETURES</h2>
-            <div className='fetures-container'>
+        <div className='fetureCard'>
+            <h2 className='text-center font-bold'>FETURES</h2>
+            <h1 className='text-center text-4xl font-bold'>Our Fetures & Services</h1>
+            <div className='fetures-container mt-10'>
             {
                 fetures.map(feture => <FetureSection
                     key={feture}
